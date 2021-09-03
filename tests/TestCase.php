@@ -2,9 +2,9 @@
 
 namespace Frc\SafeToSend\Tests;
 
+use Frc\SafeToSend\SafeToSendServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use Frc\SafeToSend\SafeToSendServiceProvider;
 
 class TestCase extends Orchestra
 {

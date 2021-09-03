@@ -2,9 +2,9 @@
 
 namespace Frc\SafeToSend;
 
+use Frc\SafeToSend\Commands\SafeToSendCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use Frc\SafeToSend\Commands\SafeToSendCommand;
 
 class SafeToSendServiceProvider extends PackageServiceProvider
 {

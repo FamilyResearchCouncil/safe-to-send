@@ -1,12 +1,12 @@
 <?php
 
-namespace VendorName\Skeleton\Commands;
+namespace Frc\SafeToSend\Commands;
 
 use Illuminate\Console\Command;
 
-class SkeletonCommand extends Command
+class SafeToSendCommand extends Command
 {
-    public $signature = 'skeleton';
+    public $signature = 'safe-to-send';
 
     public $description = 'My command';
 

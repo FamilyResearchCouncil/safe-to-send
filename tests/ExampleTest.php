@@ -1,6 +1,6 @@
 <?php
 
-namespace VendorName\Skeleton\Tests;
+namespace Frc\SafeToSend\Tests;
 
 class ExampleTest extends TestCase
 {

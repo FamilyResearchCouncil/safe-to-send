@@ -1,17 +1,17 @@
 {
-    "name": "vendor_slug/package_slug",
-    "description": ":package_description",
+    "name": "frc/safe-to-send",
+    "description": "This is my package SafeToSend",
     "keywords": [
-        ":vendor_name",
+        "frc",
         "laravel",
-        "package_slug"
+        "safe-to-send"
     ],
-    "homepage": "https://github.com/vendor_slug/package_slug",
+    "homepage": "https://github.com/frc/safe-to-send",
     "license": "MIT",
     "authors": [
         {
-            "name": ":author_name",
-            "email": "author@domain.com",
+            "name": "Ethan Brace",
+            "email": "ethanabrace@gmail.com",
             "role": "Developer"
         }
     ],
@@ -31,13 +31,13 @@
     },
     "autoload": {
         "psr-4": {
-            "VendorName\\Skeleton\\": "src",
-            "VendorName\\Skeleton\\Database\\Factories\\": "database/factories"
+            "Frc\\SafeToSend\\": "src",
+            "Frc\\SafeToSend\\Database\\Factories\\": "database/factories"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "VendorName\\Skeleton\\Tests\\": "tests"
+            "Frc\\SafeToSend\\Tests\\": "tests"
         }
     },
     "scripts": {
@@ -51,10 +51,10 @@
     "extra": {
         "laravel": {
             "providers": [
-                "VendorName\\Skeleton\\SkeletonServiceProvider"
+                "Frc\\SafeToSend\\SafeToSendServiceProvider"
             ],
             "aliases": {
-                "Skeleton": "VendorName\\Skeleton\\SkeletonFacade"
+                "SafeToSend": "Frc\\SafeToSend\\SafeToSendFacade"
             }
         }
     },
